@@ -3,8 +3,8 @@ import Text from "antd/lib/typography/Text";
 import Title from "antd/lib/typography/Title";
 import patricianImg from "./../media/patrician.jpeg";
 import miHogarImg from "./../media/miHogar.png";
-import cooldelImg from "./../media/cooldel3.png";
-import lapMarketplaceImg from "./../media/lapMarketplace2.png";
+import cooldelImg from "./../media/cooldel.png";
+import lapMarketplaceImg from "./../media/lapMarketplace.png";
 
 const Work = ({ projectRefs }) => {
   const projects = [
