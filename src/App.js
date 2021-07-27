@@ -1,9 +1,7 @@
-import logo from "./logo.svg";
 import "./App.less";
-import { Affix, Button, Divider, Space, Steps } from "antd";
-import Title from "antd/lib/typography/Title";
-import { Layout, Menu } from "antd";
-import { useEffect, useRef, useState } from "react";
+import { Affix, Button, Divider, Space } from "antd";
+import { Layout } from "antd";
+import { useRef, useState } from "react";
 import {
   ToolOutlined,
   ProjectOutlined,
@@ -18,7 +16,7 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import MainNavigator from "./components/Navigator";
 import { Grid } from "antd";
-const { Content, Footer, Sider } = Layout;
+const { Content, Sider } = Layout;
 const { useBreakpoint } = Grid;
 
 function App() {

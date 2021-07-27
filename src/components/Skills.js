@@ -1,5 +1,4 @@
-import { Card, Image, List, Skeleton, Space } from "antd";
-import useBreakpoint from "antd/lib/grid/hooks/useBreakpoint";
+import { Card, Image, List, Space } from "antd";
 import Text from "antd/lib/typography/Text";
 import Title from "antd/lib/typography/Title";
 import reactImg from "../media/react.png";
@@ -41,8 +40,6 @@ const Skills = () => {
     { name: "Scala", img: ScalaImg },
     { name: "Python", img: PythonImg },
   ];
-
-  const screens = useBreakpoint();
 
   return (
     <div className="page">

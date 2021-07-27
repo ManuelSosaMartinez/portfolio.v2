@@ -38,7 +38,7 @@ const MainNavigator = ({ refArray }) => {
   return (
     <div style={{ minWidth: 200 }}>
       <Title
-        type="success"
+        type="warning"
         level={3}
         style={{ margin: 0, padding: 16, textAlign: "left" }}
       >

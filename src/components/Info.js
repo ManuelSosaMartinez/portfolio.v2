@@ -1,6 +1,5 @@
-import { Button, Col, Image, Row, Skeleton, Space, Timeline } from "antd";
+import { Button, Col, Image, Row, Space } from "antd";
 import Text from "antd/lib/typography/Text";
-import Title from "antd/lib/typography/Title";
 import profileImg from "./../media/me.png";
 import cv from "./../media/CVen-es.pdf";
 
@@ -24,7 +23,11 @@ const Info = ({ ref }) => {
               padding: "0px 24px",
             }}
           >
-            <Text italic strong style={{ fontSize: 20, marginBottom: -20 }}>
+            <Text
+              italic="true"
+              strong
+              style={{ fontSize: 20, marginBottom: -20 }}
+            >
               Hello there! I'm
             </Text>
             <Text type="success" className="info-name">

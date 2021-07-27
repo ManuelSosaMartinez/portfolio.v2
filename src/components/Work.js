@@ -1,17 +1,10 @@
-import {
-  Button,
-  Card,
-  Carousel,
-  Divider,
-  Image,
-  List,
-  Skeleton,
-  Space,
-} from "antd";
+import { Button, Card, Divider, Image, List, Space } from "antd";
 import Text from "antd/lib/typography/Text";
 import Title from "antd/lib/typography/Title";
-import { LeftCircleFilled, RightCircleFilled } from "@ant-design/icons";
 import patricianImg from "./../media/patrician.jpeg";
+import miHogarImg from "./../media/miHogar.png";
+import cooldelImg from "./../media/cooldel3.png";
+import lapMarketplaceImg from "./../media/lapMarketplace2.png";
 
 const Work = ({ projectRefs }) => {
   const projects = [
@@ -31,7 +24,7 @@ const Work = ({ projectRefs }) => {
           TypeORM
         </Text>
       ),
-      img: "",
+      img: miHogarImg,
       ref: projectRefs.miHogarRef,
     },
     {
@@ -40,7 +33,7 @@ const Work = ({ projectRefs }) => {
       description: (
         <Space direction="vertical">
           <Text>
-            Cooldel is a web application for grocery delivery on Canada. It
+            Cooldel is a web application for grocery delivery in Canada. It
             features a web admin panel exclusive for shop owners, built with
             React, and a web for customers, built with both React and Shopify's
             Liquid. It also features a NestJS server, integrated with
@@ -48,16 +41,16 @@ const Work = ({ projectRefs }) => {
             - mySQL for vendors data.
           </Text>
           <Button type="link" href="https://www.cooldel.com" target="_blank">
-            Go take a look!
+            Take a look!
           </Button>
         </Space>
       ),
-      img: "",
+      img: cooldelImg,
       ref: projectRefs.cooldelRef,
     },
     {
       key: "lapMarketplace",
-      name: "Lap Marketplace",
+      name: "Lap",
       description: (
         <Space direction="vertical">
           <Text>
@@ -77,7 +70,7 @@ const Work = ({ projectRefs }) => {
           </Button>
         </Space>
       ),
-      img: "",
+      img: lapMarketplaceImg,
       ref: projectRefs.lapMarketplaceRef,
     },
     {
@@ -94,7 +87,7 @@ const Work = ({ projectRefs }) => {
           just to alter the SQL standard.
         </Text>
       ),
-      img: "",
+      img: patricianImg,
       ref: projectRefs.patricianRef,
     },
   ];
@@ -109,7 +102,7 @@ const Work = ({ projectRefs }) => {
           pagination={false}
           grid={{ xs: 1, sm: 1, md: 2, lg: 2, xl: 2, xxl: 2, gutter: 24 }}
           renderItem={(item) => (
-            <List.Item>
+            <List.Item key={item.key}>
               <Image
                 onClick={() => {
                   if (item.ref.current) {
@@ -134,14 +127,14 @@ const Work = ({ projectRefs }) => {
                     </Title>
                   ),
                 }}
-                src={patricianImg}
+                src={item.img}
               ></Image>
             </List.Item>
           )}
         />
       </div>
       {projects.map((project) => (
-        <div ref={project.ref}>
+        <div key={project.key} ref={project.ref}>
           <Divider />
           <Card
             style={{
@@ -156,11 +149,15 @@ const Work = ({ projectRefs }) => {
                   width: "100%",
                 }}
                 preview={false}
-                src={patricianImg}
+                src={project.img}
               ></Image>
             }
           >
-            <Title level={2}>{project.name}</Title>
+            <Divider style={{ borderTopColor: "black" }}>
+              <Title style={{ margin: 0 }} level={2}>
+                {project.name}
+              </Title>
+            </Divider>
             {project.description}
           </Card>
         </div>

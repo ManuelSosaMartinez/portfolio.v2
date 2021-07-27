@@ -1,6 +1,5 @@
 import Title from "antd/lib/typography/Title";
 import { LinkedinFilled, MailFilled, PhoneFilled } from "@ant-design/icons";
-import Text from "antd/lib/typography/Text";
 import { Space } from "antd";
 import useBreakpoint from "antd/lib/grid/hooks/useBreakpoint";
 
@@ -35,7 +34,7 @@ const Contact = () => {
       </Title>
       <Space direction={screens.xs ? "vertical" : "horizontal"} size={50}>
         {media.map((item) => (
-          <div>
+          <div key={item.id}>
             <a href={item.href} target="_blank">
               {item.img}
             </a>
