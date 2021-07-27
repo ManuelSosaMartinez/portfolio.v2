@@ -38,9 +38,7 @@ const Contact = () => {
             <a href={item.href} target="_blank">
               {item.img}
             </a>
-            <Title style={{ overflowX: "scroll" }} level={5}>
-              {item.label}
-            </Title>
+            <Title level={5}>{item.label}</Title>
           </div>
         ))}
       </Space>
