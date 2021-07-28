@@ -18,10 +18,9 @@ const Work = ({ projectRefs }) => {
           built upon React Native, is used by the tenant to pay their bills,
           report relevant issues, receive messages from the landlord and similar
           events. The web application, built automatically with AdminBro,
-          connects to a NestJS server to allow the landlord to upload bills for
-          the tenant to pay, check and answer issues and so on. All this data is
-          stored in a postgreSQL server, connected to the NestJS backend through
-          TypeORM
+          connects to a NestJS server integrated with postgreSQL to allow the
+          landlord to upload bills for the tenant to pay, check and answer
+          issues and more.
         </Text>
       ),
       img: miHogarImg,
@@ -33,12 +32,12 @@ const Work = ({ projectRefs }) => {
       description: (
         <Space direction="vertical">
           <Text>
-            Cooldel is a web application for grocery delivery in Canada. It
-            features a web admin panel exclusive for shop owners, built with
-            React, and a web for customers, built with both React and Shopify's
-            Liquid. It also features a NestJS server, integrated with
-            ElasticSearch for saving and manipulating products data, and TypeORM
-            - mySQL for vendors data.
+            Cooldel is a web application for grocery delivery in Canada. You can
+            search and buy products easily from different stores, and get them
+            delivered to your house on the same day. It features a web admin
+            panel exclusive for shop owners, built with React, and a web for
+            customers, built with both React and Shopify's Liquid. It also
+            features a NestJS server, integrated with ElasticSearch and mySQL.
           </Text>
           <Button type="link" href="https://www.cooldel.com" target="_blank">
             Take a look!
@@ -59,7 +58,7 @@ const Work = ({ projectRefs }) => {
             only have to upload their products once to the web, and Lap takes
             care of publishing, selling and shipping, while providing clients
             useful marketing data. The web is built on React, and the backend is
-            a NestJS - TypeORM - mySQL stack.
+            a NestJS - mySQL stack.
           </Text>
           <Button
             type="link"
