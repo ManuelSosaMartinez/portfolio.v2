@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f9aafe5d.chunk.css",
-    "main.js": "/portfolio/static/js/main.dfbf29dc.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dfbf29dc.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4bcb7625.chunk.css",
+    "main.js": "/portfolio/static/js/main.27f14c7a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.27f14c7a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37594edb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.37594edb.js.map",
-    "static/js/2.ce92a184.chunk.js": "/portfolio/static/js/2.ce92a184.chunk.js",
-    "static/js/2.ce92a184.chunk.js.map": "/portfolio/static/js/2.ce92a184.chunk.js.map",
+    "static/js/2.404db8d2.chunk.js": "/portfolio/static/js/2.404db8d2.chunk.js",
+    "static/js/2.404db8d2.chunk.js.map": "/portfolio/static/js/2.404db8d2.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.f9aafe5d.chunk.css.map": "/portfolio/static/css/main.f9aafe5d.chunk.css.map",
-    "static/js/2.ce92a184.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ce92a184.chunk.js.LICENSE.txt",
-    "static/media/CVen-es.1178b597.pdf": "/portfolio/static/media/CVen-es.1178b597.pdf",
+    "static/css/main.4bcb7625.chunk.css.map": "/portfolio/static/css/main.4bcb7625.chunk.css.map",
+    "static/js/2.404db8d2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.404db8d2.chunk.js.LICENSE.txt",
+    "static/media/CVen-es.c449335a.pdf": "/portfolio/static/media/CVen-es.c449335a.pdf",
     "static/media/adminbro.78374d0b.svg": "/portfolio/static/media/adminbro.78374d0b.svg",
     "static/media/ant.70107c48.png": "/portfolio/static/media/ant.70107c48.png",
+    "static/media/backstage.e736be1a.png": "/portfolio/static/media/backstage.e736be1a.png",
     "static/media/c.83dfa097.png": "/portfolio/static/media/c.83dfa097.png",
     "static/media/cooldel.53d75ef9.png": "/portfolio/static/media/cooldel.53d75ef9.png",
     "static/media/css3.a0daa6f0.svg": "/portfolio/static/media/css3.a0daa6f0.svg",
@@ -28,12 +29,13 @@
     "static/media/postgresql.c56c146c.png": "/portfolio/static/media/postgresql.c56c146c.png",
     "static/media/python.4d25b183.png": "/portfolio/static/media/python.4d25b183.png",
     "static/media/react.20adfb35.png": "/portfolio/static/media/react.20adfb35.png",
+    "static/media/resuma.8f9314e5.png": "/portfolio/static/media/resuma.8f9314e5.png",
     "static/media/sass.a2591e27.png": "/portfolio/static/media/sass.a2591e27.png"
   },
   "entrypoints": [
     "static/js/runtime-main.37594edb.js",
-    "static/js/2.ce92a184.chunk.js",
-    "static/css/main.f9aafe5d.chunk.css",
-    "static/js/main.dfbf29dc.chunk.js"
+    "static/js/2.404db8d2.chunk.js",
+    "static/css/main.4bcb7625.chunk.css",
+    "static/js/main.27f14c7a.chunk.js"
   ]
 }
