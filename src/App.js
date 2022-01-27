@@ -24,10 +24,12 @@ function App() {
   const skillsRef = useRef(null);
   const workRef = useRef(null);
   const contactRef = useRef(null);
-  const cooldelRef = useRef(null);
+  const backstageRef = useRef(null);
   const miHogarRef = useRef(null);
-  const patricianRef = useRef(null);
+  const cooldelRef = useRef(null);
   const lapMarketplaceRef = useRef(null);
+  const resumaRef = useRef(null);
+  const patricianRef = useRef(null);
 
   const refArray = [
     { ref: infoRef, icon: <UserOutlined />, title: "About me" },
@@ -37,18 +39,22 @@ function App() {
       icon: <ProjectOutlined />,
       title: "Projects",
     },
+    { title: "Backstage", ref: backstageRef },
     { title: "MiHogar", ref: miHogarRef },
     { title: "Cooldel", ref: cooldelRef },
     { title: "Lap Marketplace", ref: lapMarketplaceRef },
+    { title: "Resuma", ref: resumaRef },
     { title: "Patrician", ref: patricianRef },
     { ref: contactRef, icon: <ContactsOutlined />, title: "Contact" },
   ];
 
   const projectRefs = {
+    backstageRef: backstageRef,
     miHogarRef: miHogarRef,
     cooldelRef: cooldelRef,
     lapMarketplaceRef: lapMarketplaceRef,
     patricianRef: patricianRef,
+    resumaRef: resumaRef,
   };
 
   const [collapsed, setCollapsed] = useState(true);

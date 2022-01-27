@@ -21,11 +21,11 @@ import PythonImg from "../media/python.png";
 
 const Skills = () => {
   const mainTechs = [
-    { name: "ReactJS", img: reactImg, time: "~1 year" },
-    { name: "HTML5", img: HTML5Img, time: "~1 year" },
-    { name: "CSS3", img: CSS3Img, time: "~1 year" },
-    { name: "NestJs", img: NestJsImg, time: "~six months" },
-    { name: "PostgreSQL", img: PostgreSQLImg, time: "~six months" },
+    { name: "ReactJS", img: reactImg, time: "1 year" },
+    { name: "HTML5", img: HTML5Img, time: "1 year" },
+    { name: "CSS3", img: CSS3Img, time: "1 year" },
+    { name: "NestJs", img: NestJsImg, time: "1 year" },
+    { name: "PostgreSQL", img: PostgreSQLImg, time: "1 year" },
     { name: "MongoDB", img: MongoDBImg, time: "~six months" },
   ];
   const secondaryTechs = [

@@ -41,23 +41,24 @@ const Info = ({ ref }) => {
               Sosa
             </Text>
             <Text style={{ fontSize: 20 }}>
-              I'm a 21 year old software developer and student, currently in the
-              4th year of my career in Computer Science.
+              I'm a 22 year old software developer and student.
             </Text>
             <div>
-              <Text style={{ fontSize: 20 }}>
-                {" "}
-                For the last 6 months I've been working as a
-              </Text>
+              <Text style={{ fontSize: 20 }}> I've been working as a</Text>
               <Text strong type="success" style={{ fontSize: 20 }}>
                 {" "}
                 Fullstack Software Developer
               </Text>
               <Text style={{ fontSize: 20 }}>
                 {" "}
-                on different teams and proyects.
+                on different teams and proyects for over a year, and I'm at the
+                4th year of my career in Computer Science.
               </Text>
             </div>
+            <Text style={{ fontSize: 20 }}>
+              I mainly work with Typescript/Javascript stacks but I can easily
+              learn other technologies as well
+            </Text>
             <Text style={{ fontSize: 20 }}>
               Be it academically or work-related, my goal is to keep on
               learning. Let's talk!

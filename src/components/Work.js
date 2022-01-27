@@ -5,9 +5,27 @@ import patricianImg from "./../media/patrician.jpeg";
 import miHogarImg from "./../media/miHogar.png";
 import cooldelImg from "./../media/cooldel.png";
 import lapMarketplaceImg from "./../media/lapMarketplace.png";
+import backstageImg from "./../media/backstage.png";
+import resumaImg from "./../media/resuma.png";
 
 const Work = ({ projectRefs }) => {
   const projects = [
+    {
+      key: "backstage",
+      name: "Backstage Online",
+      description: (
+        <Text>
+          Backstage Online is a complete event manager website, where organizers
+          can create events and sell tickets for them. It features a website
+          builder for the events and organizer pages, a campaign management
+          system to publish ads on social media, and a complete set of sales
+          metrics. The page is built on React and the backend on NestJS, with a
+          PostgreSQL database.
+        </Text>
+      ),
+      img: backstageImg,
+      ref: projectRefs.backstageRef,
+    },
     {
       key: "miHogar",
       name: "Mi Hogar",
@@ -18,7 +36,7 @@ const Work = ({ projectRefs }) => {
           built upon React Native, is used by the tenant to pay their bills,
           report relevant issues, receive messages from the landlord and similar
           events. The web application, built automatically with AdminBro,
-          connects to a NestJS server integrated with postgreSQL to allow the
+          connects to a NestJS server integrated with PostgreSQL to allow the
           landlord to upload bills for the tenant to pay, check and answer
           issues and more.
         </Text>
@@ -71,6 +89,21 @@ const Work = ({ projectRefs }) => {
       ),
       img: lapMarketplaceImg,
       ref: projectRefs.lapMarketplaceRef,
+    },
+    {
+      key: "resuma",
+      name: "Resuma",
+      description: (
+        <Text>
+          Resuma is a posnet sales manager for all kind of vendors. It joins the
+          sales data of different posnets providers so vendors can have it all
+          in one place. Resuma also helps vendors to find and claim missing
+          sales on providers clearings. It's built on Django with a PostgreSQL
+          database, and features NestJS microservices.
+        </Text>
+      ),
+      img: resumaImg,
+      ref: projectRefs.resumaRef,
     },
     {
       key: "patrician",
