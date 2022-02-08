@@ -11,7 +11,7 @@ const Contact = () => {
       id: "linkedin",
       img: <LinkedinFilled style={{ fontSize: 60 }} />,
       label: "www.linkedin.com/in/manu-sm",
-      href: "www.linkedin.com/in/manu-sm",
+      href: "https://www.linkedin.com/in/manu-sm",
     },
     {
       id: "phone",
